@@ -1,7 +1,6 @@
 package br.com.alura.domain;
 
 import jakarta.persistence.*;
-import jakarta.persistence.criteria.CriteriaBuilder;
 
 @Entity
 public class Agencia {
@@ -21,7 +20,7 @@ public class Agencia {
     @JoinColumn(name = "endereco_id")
     private Endereco endereco;
 
-    Agencia() {
+    public Agencia() {
 
     }
 
@@ -47,6 +46,10 @@ public class Agencia {
 
     public String getCnpj() {
         return cnpj;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
     }
 
     public void setId(Long id) {

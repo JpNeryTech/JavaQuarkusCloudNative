@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8d818b-1964-436e-8015-701d2cf313eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/controller/AgenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/controller/AgenciaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/domain/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/domain/Agencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/domain/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/domain/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/repository/AgenciaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/repository/AgenciaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -37,7 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;Docker.banking-validation: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;Maven.banking-service [io.quarkus.platform:quarkus-maven-plugin:3.33.1:dev].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.banking-service [quarkus:dev].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.banking-service [quarkus:dev].executor&quot;: &quot;Debug&quot;,
     &quot;Maven.banking-service.executor&quot;: &quot;Run&quot;,
     &quot;Maven.banking-validation [io.quarkus.platform:quarkus-maven-plugin:3.15.1:dev].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -48,6 +56,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jpper\OneDrive\Desktop\Cursos_ALURA\Workspace\banking-service" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.banking-service [quarkus:dev]">
     <configuration name="quarkus-app" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="io.quarkus.runtime.Quarkus" />

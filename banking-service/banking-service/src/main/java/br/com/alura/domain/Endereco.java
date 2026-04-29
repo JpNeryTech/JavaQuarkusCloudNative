@@ -16,7 +16,7 @@ public class Endereco {
     private String complemento;
     private Integer numero;
 
-    Endereco() {
+    public Endereco() {
 
     }
     public Endereco(Long id, String rua, String logradouro, String complemento, Integer numero) {
