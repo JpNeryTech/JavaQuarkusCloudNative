@@ -1,13 +1,15 @@
 package br.com.alura.controller;
 
 import br.com.alura.domain.Agencia;
-import br.com.alura.service.http.AgenciaService;
+import br.com.alura.service.AgenciaService;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Context;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.UriInfo;
 import org.jboss.resteasy.reactive.RestResponse;
+
+import java.util.List;
 
 @Path("/agencias")
 @Produces(MediaType.APPLICATION_JSON)
