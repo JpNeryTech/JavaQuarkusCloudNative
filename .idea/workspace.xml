@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8d818b-1964-436e-8015-701d2cf313eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/banking-service/banking-service/src/test/java/br/com/alura/service/AgeciaServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-service/banking-service/src/test/java/utils/AgenciaFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banking-service/banking-service/prometheus.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banking-service/banking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/controller/AgenciaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/controller/AgenciaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/http/AgenciaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/AgenciaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/http/SituacaoCadastralHttpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/http/SituacaoCadastralHttpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/AgenciaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/java/br/com/alura/service/AgenciaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-service/banking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-service/banking-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarNull.executor": "Run",
     "JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarSituacaoCadastralInativa.executor": "Run",
     "Maven.banking-service [io.quarkus.platform:quarkus-maven-plugin:3.33.1:dev].executor": "Run",
-    "Maven.banking-service [quarkus:dev].executor": "Debug",
+    "Maven.banking-service [quarkus:dev].executor": "Run",
     "Maven.banking-service.executor": "Run",
     "Maven.banking-validation [io.quarkus.platform:quarkus-maven-plugin:3.15.1:dev].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -65,7 +63,7 @@
       <recent name="br.com.alura.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarNull">
+  <component name="RunManager" selected="Maven.banking-service [quarkus:dev]">
     <configuration name="quarkus-app" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="io.quarkus.runtime.Quarkus" />
       <method v="2">
@@ -173,9 +171,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.quarkus-app" />
-      <item itemvalue="JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarSituacaoCadastralInativa" />
       <item itemvalue="JUnit.AgeciaServiceTest.deveCadastrarQuandoClientRetornarSituacaoCadastralAtiva" />
       <item itemvalue="JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarNull" />
+      <item itemvalue="JUnit.AgeciaServiceTest.deveNaoCadastrarQuandoClientRetornarSituacaoCadastralInativa" />
       <item itemvalue="Maven.banking-service [quarkus:dev]" />
     </list>
     <recent_temporary>
